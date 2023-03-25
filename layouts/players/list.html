@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+  <div class="relative mt-20">
+    <h1>{{ .Title }}</h1>
+    <div class="chick chick-h1"></div>
+  </div>
+
+  {{.Content}}
+
+  {{ range .Pages }}
+    <article>
+      <div class="flex flex-wrap">
+        <img class="profile-picture" src="{{.Params.picture}}" alt="{{.Title}}">
+        <div class="player-description grow min-w-min flex items-center">
+          <div>
+              {{ .Content }}
+            <p>{{.Params.langs}}</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <h2>{{ .Title }}</h2>
+      </div>
+    </article>
+  {{ end }}
+{{ end }}

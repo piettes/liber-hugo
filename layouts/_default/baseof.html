@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.LanguageCode }}'>
+{{ partial "head.html" . }}
+
+<body class="flex flex-col min-h-screen">
+{{- partial "dev/dev-tools.html" . -}}
+{{- partial "header.html" . -}}
+<main class="flex-1 bg-background">
+  <div class="container sm:m-auto mx-4 text-xl">
+      {{- block "main" . }}{{- end }}
+  </div>
+</main>
+{{- partial "footer.html" . -}}
+</body>
+
+</html>

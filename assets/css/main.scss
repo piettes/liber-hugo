@@ -1,0 +1,144 @@
+/* assets */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "carlson";
+    src: url("../fonts/carlson/CarlsonSans-Black.otf")
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.styled-p {
+    margin-bottom: 1rem;
+    color: black;
+    padding: 3em 1em 1em 1em;
+    background-color: #FFEE00;
+    clip-path: polygon(0 21px, 35% 0, 35% 26px, 46% 0, 46% 28px, 60% 0, 60% 31px, 75% 0, 75% 25px, 100% 0px, 100% 100%, 0 100%);
+}
+
+blockquote {
+    border-left: 3px solid white;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+hr {
+    border-top-width: 2px;
+    border-color: #FFF;
+    margin: 2.5em 0;
+}
+
+h1 {
+    clip-path: polygon(4% 17%, 100% 12%, 96% 83%, 0 88%);
+    padding: 1em;
+    font-family: "carlson", sans-serif;
+    background-color: #000;
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: 5;
+    position: relative;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem .5em;
+    font-family:  "carlson", sans-serif;
+    background-color: #000;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+main {
+    color: white;
+}
+
+.liber-title {
+    background-color: #000;
+    clip-path: polygon(0 17%, 91% 8%, 100% 83%, 8% 91%);
+    font-family: "carlson", sans-serif;
+}
+
+.chick-homepage {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.chick {
+    background-image: url(../images/chick.png);
+    background-size: 100%;
+    z-index: 1;
+}
+
+.chick-h1 {
+    position: absolute;
+    top: -35%;
+    left: 5%;
+    width: 10rem;
+    height: 10rem;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+}
+
+.event {
+
+}
+
+.event-link {
+    background-color: black;
+    display: inline-block;
+    padding: 0.5em;
+    float: right;
+}
+
+.event-date {
+    background-color: #FFEE00;
+    color: black;
+    display: inline-block;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.player-description {
+    flex-basis: min-content;
+}
+
+.emoji {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline;
+    margin: 0 0.1em;
+}
+
+h3 {
+    background-color: #FFEE00;
+    color: black;
+    display: inline-block;
+}
+
+h5 {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+main li {
+    list-style: inside;
+}

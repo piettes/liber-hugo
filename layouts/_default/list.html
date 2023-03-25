@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  <div class="relative mt-20">
+    <h1>{{ .Title }}</h1>
+    <div class="chick chick-h1"></div>
+  </div>
+
+  {{.Content}}
+
+  {{ range .Pages }}
+    <article>
+      <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </article>
+  {{ end }}
+{{ end }}

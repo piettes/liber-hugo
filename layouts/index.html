@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <article class="text-white">
+
+    <div class="max-w-5xl m-auto mt-20">
+
+      <div class="">
+        <div class="liber-title inline-block text-7xl sm:text-8xl md:text-9xl px-10 py-6 sm:px-20 sm:py-12 md:py-10">
+          LIBER
+        </div>
+      </div>
+      <div class="flex justify-end md:mt-2 mt-8 relative">
+        <div class="chick chick-homepage"></div>
+        <div class="liber-title inline-block text-7xl sm:text-8xl md:text-9xl px-10 py-6 sm:px-20 sm:py-12 md:py-10">
+          IMPRO
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-5xl m-auto mt-20">
+
+        {{ $parts := split .Content "|||||" }}
+
+        {{ index $parts 0 | safe.HTML }}
+
+        <div class="mt-20 mb-20">
+          <h2 class="mb-6">Prochain Spectacle</h2>
+          <div id="next-event"></div>
+        </div>
+
+
+        {{ index $parts 1 | safe.HTML }}
+
+    </div>
+
+  </article>
+
+{{ end }}
