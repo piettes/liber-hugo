@@ -8,5 +8,4 @@
 
 URL
     
-    https://piettes.github.io/liber-hugo/events/
-
+    https://piettes.github.io/liber-hugo/
