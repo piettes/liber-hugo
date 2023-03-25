@@ -11,14 +11,16 @@
     <article>
       <div class="flex flex-wrap">
         <img class="profile-picture" src="{{.Params.picture}}" alt="{{.Title}}">
-        <div class="player-description grow min-w-min flex items-center">
-          <div>
+        <div class="sm:w-min grow flex items-center order-last sm:order-none">
+          <div class="text-justify">
               {{ .Content }}
             <p>{{.Params.langs}}</p>
           </div>
         </div>
         <div class="basis-full"></div>
-        <h2>{{ .Title }}</h2>
+        <div>
+          <h2>{{ .Title }}</h2>
+        </div>
       </div>
     </article>
   {{ end }}
