@@ -1,6 +1,6 @@
 ---
 title: "Joanna"
-picture: https://user-images.githubusercontent.com/5419714/224745610-aafe8348-0844-4d1e-88a7-442276ef1b89.png
+picture: https://user-images.githubusercontent.com/5419714/233984211-ab5de2a7-c0f0-4b04-9eb9-a1e51b1ad823.png
 langs: 🇩🇪🇫🇷🇬🇧❤️
 ---
 
