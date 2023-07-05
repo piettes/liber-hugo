@@ -1,6 +1,6 @@
 ---
 title: "Ulysse"
-picture: https://user-images.githubusercontent.com/5419714/224745642-693f303f-61f4-43f4-8594-f4398761ea09.png
+picture: https://github.com/piettes/liber-hugo/assets/5419714/7779c804-92ec-4cdd-b54f-735982de1fc3
 weight: 50
 langs: 🇫🇷🇩🇪🇬🇧
 ---

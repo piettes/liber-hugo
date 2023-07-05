@@ -1,6 +1,6 @@
 ---
 title: "Adrien"
-picture: https://user-images.githubusercontent.com/5419714/230306877-21e6489f-5ccb-4cfe-8456-e1cb055694d9.png
+picture: https://github.com/piettes/liber-hugo/assets/5419714/4f38331e-bec3-439d-a6db-c14d4ebf1915
 langs: 🇫🇷🇩🇪🇷🇺
 ---
 Vous venez d’un petit village du fin fond de la Charente Maritime? Adrien connaitra le nombre d’habitants ou le nom du

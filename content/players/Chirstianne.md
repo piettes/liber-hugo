@@ -1,6 +1,6 @@
 ---
 title: "Christianne"
-picture: https://user-images.githubusercontent.com/5419714/230306821-322d8d61-4b4c-4306-8613-2689f244a49d.png
+picture: https://github.com/piettes/liber-hugo/assets/5419714/7188d9c4-dd27-45da-aa79-007f0666dd1c
 langs: 🇩🇪🇫🇷🇬🇧
 ---
 Interpreter 2 personnages simultanément? Facile pour Christiane! La justesse de son jeu impressionne, elle peut passer

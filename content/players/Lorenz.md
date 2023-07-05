@@ -1,6 +1,6 @@
 ---
 title: "Lorenz"
-picture: https://user-images.githubusercontent.com/5419714/224745633-42e01326-8b7d-48db-bdb2-7902f60da432.png
+picture: https://github.com/piettes/liber-hugo/assets/5419714/28db47f6-8546-4481-8e1d-c798469e4c38
 langs: 🇩🇪🇪🇸🇫🇷🇬🇧🇮🇹🇬🇷🇵🇹
 ---
 
