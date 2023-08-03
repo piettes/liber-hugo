@@ -1,8 +1,7 @@
 ---
-title: "Johanna"
-langs: 🇫🇷🇯🇵🇬🇧🇩🇪
-picture: https://user-images.githubusercontent.com/5419714/236445180-192510c8-09ea-4192-9544-679ab59b23b0.png
-weight: 1
+title: "Lorenz"
+picture: https://user-images.githubusercontent.com/5419714/224745633-42e01326-8b7d-48db-bdb2-7902f60da432.png
+langs: 🇩🇪🇪🇸🇫🇷🇬🇧🇮🇹🇬🇷🇵🇹
 ---
 
 Here's a nice placeholder that would correspond to the English description of the person whose photo is just there.
