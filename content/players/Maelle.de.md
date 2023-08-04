@@ -1,8 +1,7 @@
 ---
-title: "Johanna"
-langs: 🇫🇷🇯🇵🇬🇧🇩🇪
-picture: https://user-images.githubusercontent.com/5419714/236445180-192510c8-09ea-4192-9544-679ab59b23b0.png
-weight: 1
+title: "Maëlle"
+picture: https://github.com/piettes/liber-hugo/assets/5419714/0475b5fd-b1b5-42fc-a81b-820d62dea40c
+langs: 🇫🇷🇩🇪🇬🇧
 ---
 
 Hier ist ein freundlicher Platzhalter, der der deutschen Beschreibung der Person entsprechen würde, deren Foto genau hier ist.

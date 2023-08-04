@@ -1,8 +1,7 @@
 ---
-title: "Johanna"
-langs: 🇫🇷🇯🇵🇬🇧🇩🇪
-picture: https://user-images.githubusercontent.com/5419714/236445180-192510c8-09ea-4192-9544-679ab59b23b0.png
-weight: 1
+title: "Flora"
+picture: https://user-images.githubusercontent.com/5419714/236445176-e21f1b59-3d4b-4bc4-9a6f-4f2004cbd713.png
+langs: 🇫🇷🇬🇧🇩🇪
 ---
 
 Hier ist ein freundlicher Platzhalter, der der deutschen Beschreibung der Person entsprechen würde, deren Foto genau hier ist.
