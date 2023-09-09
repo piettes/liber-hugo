@@ -65,7 +65,6 @@ const displayEvents = async () => {
     const events = await fetchEvents();
     console.log(events);
     const eventListEl = document.getElementById("event-list");
-    console.log(eventListEl);
     if (eventListEl) {
         events.forEach(ev => {
             eventListEl.appendChild(eventItem(ev));
@@ -74,8 +73,7 @@ const displayEvents = async () => {
 
     const nextEvent = document.getElementById("next-event");
     if (nextEvent) {
-        console.log("DJKLSAJLDKSA?")
-        nextEvent.appendChild(eventItem(events.pop()));
+        nextEvent.appendChild(eventItem(events[0]));
     }
 
 };
