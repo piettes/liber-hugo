@@ -37,16 +37,17 @@
     </label>
 
 
-    <ul id="nav-menu" class="sm:flex flex-grow w-full sm:w-auto hidden uppercase font-semibold text-center">
+    <ul id="nav-menu" class="sm:flex flex-grow w-full sm:w-auto hidden uppercase font-semibold">
         {{- range site.Menus.main }}
-          <li class="grow border-x border-black p-3">
-            <a href="{{ .URL | absLangURL }}">{{ T .Identifier | default .Identifier }}</a>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="{{ .URL | absLangURL }}">{{ T .Identifier | default .Identifier }}</a>
           </li>
         {{- end }}
       <div class="grow flex">
           {{ range $.Site.Home.AllTranslations }}
               {{ if ne .Language $.Site.Language }}
-                <li class="grow border-x border-black p-3 sm:border-t-0 border-t-2 "><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                <li class="grow border-x border-black p-3 sm:border-t-0 border-t-2 flex">
+                <a class="flex grow place-content-center items-center" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
                 </li>
               {{ end }}
           {{ end }}
