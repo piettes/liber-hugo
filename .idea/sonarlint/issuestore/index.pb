@@ -34,3 +34,9 @@ G.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a,9/d/9d
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1/0/10a03f31c4dce92cb371e761ce9429428bb6c176
 Å
 Q.idea/sonarlint/securityhotspotstore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a,9/a/9ab775a45cd57b8b48016a1df33230d8b5c74c21
+D
+assets/css/main.scss,3/9/39a50fefad724cd0aa7b6ec792325957ea1751b3
+N
+content/workshops/_index.en.md,1/8/1835cfa773e5a867a5e57815f790557fe0a23f78
+N
+content/workshops/_index.de.md,f/3/f3aea0027abb738b96285b5885fb0c86d09a9d30

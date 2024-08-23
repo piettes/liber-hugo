@@ -128,6 +128,8 @@ h3 {
     background-color: #FFEE00;
     color: black;
     display: inline-block;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 h5 {
@@ -137,4 +139,9 @@ h5 {
 
 main li {
     list-style: inside;
+}
+
+main a {
+    text-decoration: underline;
+    text-decoration-color: #FFEE00;
 }
