@@ -2,7 +2,7 @@
 import * as params from '@params';
 
 
-const yesticketBaseUrl = "https://www.yesticket.org/api/events-endpoint.php";
+const yesticketBaseUrl = "https://www.yesticket.org/api/v2/events.php";
 const organizer = "14";
 const type = "all";
 const key = "6bd5501ae758318bb5195e2b";
