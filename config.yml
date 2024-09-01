@@ -15,15 +15,21 @@ menu:
     - identifier: home
       url: ""
       weight: 10
-    - identifier: players
-      url: players/
-      weight: 20
+    - identifier: about
+      url: "about"
+      weight: 15
+#    - identifier: players
+#      url: players/
+#      weight: 20
     - identifier: workshops
       url: workshops/
       weight: 30
     - identifier: events
       url: events/
       weight: 40
+    - identifier: contact
+      url: contact/
+      weight: 50
 
 build:
   writeStats: true

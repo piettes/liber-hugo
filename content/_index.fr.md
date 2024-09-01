@@ -3,9 +3,12 @@ title: "Le Liber"
 eventpage: true
 ---
 
-Un espace vide, deux équipes de joueurs survoltés, un arbitre aux aguets… et l’imagination au pouvoir.
 
-Dans la tradition des matchs d’impro franco-allemands lancés en 2010, la LIBER est créée pour improviser en français, en allemand, en gromelot et bien plus encore. En adoptant le cadre du match d’improvisation francophone, les joueurs/arbitres/MC rencontrent des équipes de tous pays pour prêcher la bonne parole : l’imagination, la rencontre et le plaisir au pouvoir !
+La LIBER est une ligue d’improvisation franco-allemande à Berlin.
+
+Dans la lignée des matchs d’impro franco-allemands initiés en 2010, la LIBER a été fondée pour offrir des performances en français, en allemand, en gromelot et bien plus encore. En s’inspirant du cadre du match d’improvisation francophone, les joueurs, arbitres et maîtres de cérémonie collaborent avec des équipes du monde entier pour promouvoir des valeurs essentielles : l’imagination, l’échange et le plaisir au pouvoir !
+
+Voici nos prochaines dates de spectacle : LINK Ateliers
 
 |||||
 
