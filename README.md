@@ -1,5 +1,7 @@
 # Liber Website, with Hugo & Tailwind
 
+Instll Hugo:
+https://gohugo.io/installation/
 
 Start dev mode:    
 

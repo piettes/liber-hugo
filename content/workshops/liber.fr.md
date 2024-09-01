@@ -6,7 +6,7 @@ title: "Cours annuel"
 
 Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes compétences en improvisation. De septembre 2024 à juin 2025, nous nous concentrerons sur deux principaux formats : les formats courts sous forme de matchs et les formats longs de 45 minutes.
 
-### Contenu: Formats courts (Matchs d'impro)
+### Formats courts (Matchs d'impro)
 
 **Rapidité et spontanéité :** Dans ces sessions dynamiques, tu apprendras à réagir rapidement et de manière créative aux nouvelles propositions dans des scènes courtes.
 
@@ -16,7 +16,7 @@ Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes co
 
 **Techniques de narration :** Apprends à construire une intrigue cohérente, à développer des personnages et à créer du suspense.
 
-### Contenu: Formats longs (45 minutes)
+### Formats longs (45 minutes)
 
 **Profondeur et complexité :** Ici, nous nous consacrerons à des scènes d'improvisation plus longues, nécessitant une structure narrative plus approfondie et un développement de personnages plus complexe.
 
@@ -45,7 +45,6 @@ Les ateliers seront divisés en deux groupes. Ces deux groupes seront amenés à
 Inscription annuelle et paiement trimestriel. 533 € tarif plein à l'année, 427 € tarif réduit, soit 13 € par workshop (10,40 € en réduit).
 Les 2 premières séances (4 et 11 septembre) sont considérées comme un essai et n'engage pas à une participation ultérieure.
 
-📅 Save the date : Une journée LIBER sera également organisée le 22 ou 28 septembre prochain (date à confirmer)
 
 ---
 

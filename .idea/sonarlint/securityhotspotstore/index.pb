@@ -73,3 +73,5 @@ M
 content/workshops/liber.fr.md,1/4/1417af5d87b232008e8eff1ab55619c6a5e00a3d
 P
  content/workshops/poussins.fr.md,e/e/eeb8ce1e6933b97b69e56692ff9b47895988aa3a
+I
+layouts/players/list.html,e/2/e2c62761007d6de5a6c8b01490740780bb256bdc

@@ -3,6 +3,7 @@ title: "Le Liber"
 eventpage: true
 ---
 
+<img src="https://github.com/user-attachments/assets/6bef3e8d-59ad-4825-84c9-06c30917f051" alt="La Liber">
 
 La LIBER est une ligue d’improvisation franco-allemande à Berlin.
 
