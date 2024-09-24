@@ -37,7 +37,7 @@ Zweifelos die beste Impro-Gruppe in der Region\
 Spielen jetzt mit großer Freude euch all unsere Szenen vor\
 Wünschen euch viel Spaß dabei und gute Unterhaltung!			
 </div>
-<img style="object-position: 0 -65px;" src="https://github.com/user-attachments/assets/9a649ea4-c3f0-4410-85ff-9f550cd797fa" alt="La Liber">
+<img src="https://github.com/user-attachments/assets/9a649ea4-c3f0-4410-85ff-9f550cd797fa" alt="La Liber">
 
 ### Petite vidéo d'Arte
 
