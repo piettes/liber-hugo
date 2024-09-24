@@ -77,3 +77,7 @@ I
 content/home/_index.en.md,2/6/2624c570079015cb351c3261133fd4706fe2228c
 A
 assets/ts/main.ts,7/5/75bcd7e5cd7e8f03c4999a9ea99a5990db684c18
+K
+content/impressum/_index.md,8/8/880dbc017d7a56cf129b574af66247a946b123c4
+I
+content/privacy/_index.md,6/2/620bda10b5fceff8211317416af210899852e8d4

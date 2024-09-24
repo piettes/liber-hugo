@@ -12,14 +12,20 @@ Nous jouons tous les troisièmes dimanches au théâtre ACUD à Berlin et vous i
 
 À Berlin même, nous sommes étroitement liés à la scène locale de l'improvisation et entretenons un échange intensif avec d'autres groupes d'improvisation. Parmi eux, GroKabaret, ImproFusion, ES Impro, Berlino Italia, Scratch ou Les enfants du désir troublés. Ces groupes enrichissent le paysage de l'improvisation berlinoise avec des performances dans différentes langues – de l'allemand et de l'anglais au français, en passant par l'italien et l'espagnol. Ensemble, nous créons un monde scénique vivant et multiculturel qui émerveille le public à chaque fois. Plongez dans l'univers de LIBER – où l'amitié franco-allemande prend vie et où le théâtre d'improvisation se vit dans sa plus belle forme.
 
-
+<br/>
+<br/>
 
 ### Un ensemble solide depuis presque 15 ans 
 
 LIBER a été fondée par Marjorie Nadal et Denis Aubert. En tant qu'improvisateurs multilingues, ils ont initié une vague de théâtre franco-allemand à Berlin à travers leurs ateliers et ont formé environ une centaine de joueurs aux bases du théâtre d'improvisation depuis 2010. Leur engagement constitue la pierre angulaire du groupe actuel.
 
+<br/>
+<br/>
 
-### Notre Hymne
+
+### Notre Hymne 
+
+<div class="text-center">
 
 Vous entrez ce soir dans notre arène de l'improvisation\
 Pour votre plus grand plaisir, deux fières équipes s'affronteront\
@@ -30,7 +36,7 @@ Wir sind die Berliner Liga für Improvisation\
 Zweifelos die beste Impro-Gruppe in der Region\
 Spielen jetzt mit großer Freude euch all unsere Szenen vor\
 Wünschen euch viel Spaß dabei und gute Unterhaltung!			
-
+</div>
 <img style="object-position: 0 -65px;" src="https://github.com/user-attachments/assets/9a649ea4-c3f0-4410-85ff-9f550cd797fa" alt="La Liber">
 
 ### Petite vidéo d'Arte
