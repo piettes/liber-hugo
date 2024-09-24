@@ -22,3 +22,5 @@ S'abonner
 Nous sommes volontiers disponibles pour des interviews et pour répondre à toute question concernant les articles de presse. Pour toute demande de presse, veuillez contacter :
 polecommunication.liber.impro@gmail.com
 
+
+<img src="https://github.com/user-attachments/assets/0a700b20-6fbd-4061-90e9-397a09514428" alt="La Liber">

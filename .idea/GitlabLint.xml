@@ -6,6 +6,7 @@
         <option value="https://github.com/api/v4" />
         <option value="https://gitlabts/api/v4" />
         <option value="https://partner.bdr.de/api/v4" />
+        <option value="https://gitlab.partner.bdr.de/api/v4" />
       </set>
     </option>
     <option name="newProject" value="false" />

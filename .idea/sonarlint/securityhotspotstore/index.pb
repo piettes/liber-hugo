@@ -65,13 +65,15 @@ I
 content/contact/_index.md,8/d/8d6eb7d7df1da8f2d19929e7b7de4ff9247e8e06
 I
 content/home/_index.fr.md,2/5/254056a9585fbe0dadac707ecd4fbb46932231a3
-L
-content/workshops/poussin.md,c/b/cbd1443361d8bdfdf34245ed8ac8a090e37ab522
-O
-content/workshops/poussin.fr.md,0/5/0537a7fcecc372423d2ed17ccd4587e014d68e47
 M
 content/workshops/liber.fr.md,1/4/1417af5d87b232008e8eff1ab55619c6a5e00a3d
 P
  content/workshops/poussins.fr.md,e/e/eeb8ce1e6933b97b69e56692ff9b47895988aa3a
 I
 layouts/players/list.html,e/2/e2c62761007d6de5a6c8b01490740780bb256bdc
+I
+content/home/_index.de.md,1/7/17518155895996033d313d8903ada422ff2d82b7
+I
+content/home/_index.en.md,2/6/2624c570079015cb351c3261133fd4706fe2228c
+A
+assets/ts/main.ts,7/5/75bcd7e5cd7e8f03c4999a9ea99a5990db684c18
