@@ -783,6 +783,10 @@ video {
   flex-wrap: wrap;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .items-center {
   align-items: center;
 }
@@ -944,10 +948,6 @@ video {
 
 .text-left {
   text-align: left;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-right {
