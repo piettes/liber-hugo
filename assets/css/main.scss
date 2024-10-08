@@ -55,7 +55,7 @@ h2 {
     padding: 1rem .5em;
     font-family:  "carlson", sans-serif;
     background-color: #000;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1;
 }
 
@@ -69,28 +69,10 @@ main {
     font-family: "carlson", sans-serif;
 }
 
-.chick-homepage {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    width: 10rem;
-    height: 10rem;
-}
-
 .chick {
     background-image: url(../images/chick.png);
     background-size: 100%;
     z-index: 1;
-}
-
-.chick-h1 {
-    position: absolute;
-    top: -35%;
-    left: 5%;
-    width: 10rem;
-    height: 10rem;
-    z-index: 1;
-    transform: scaleX(-1);
 }
 
 .profile-picture {
@@ -98,9 +80,6 @@ main {
     height: 300px;
 }
 
-.event {
-
-}
 
 .event-link {
     background-color: black;
