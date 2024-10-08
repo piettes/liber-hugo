@@ -596,6 +596,22 @@ video {
   top: 40%;
 }
 
+.top-\[20\%\] {
+  top: 20%;
+}
+
+.top-\[-9\%\] {
+  top: -9%;
+}
+
+.bottom-\[-9\%\] {
+  bottom: -9%;
+}
+
+.right-\[0\] {
+  right: 0;
+}
+
 .-z-50 {
   z-index: -50;
 }
@@ -664,6 +680,14 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .block {
