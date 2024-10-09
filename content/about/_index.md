@@ -2,7 +2,7 @@
 title: "Qui sommes nous ?"
 ---
 
-<img src="https://github.com/user-attachments/assets/6bef3e8d-59ad-4825-84c9-06c30917f051" alt="La Liber">
+<img src="../images/9.webp" alt="La Liber">
 
 Le groupe d'improvisation LIBER de Berlin est synonyme de rencontres créatives et interculturelles sur scène. En tant que troupe franco-allemande, nous unissons les mondes linguistiques et culturels des deux pays dans un mélange unique d'humour, de spontanéité et de profondeur. Nos spectacles sont un jeu vivant avec les attentes du public, où chaque scène donne naissance à une histoire surprenante – parfois en allemand, parfois en français, souvent avec un clin d'œil et toujours avec une oreille attentive aux réactions des spectateurs.
 
@@ -37,7 +37,7 @@ Zweifelos die beste Impro-Gruppe in der Region\
 Spielen jetzt mit großer Freude euch all unsere Szenen vor\
 Wünschen euch viel Spaß dabei und gute Unterhaltung!			
 </div>
-<img src="https://github.com/user-attachments/assets/9a649ea4-c3f0-4410-85ff-9f550cd797fa" alt="La Liber">
+<img src="../images/8.webp" alt="La Liber">
 
 ### Petite vidéo d'Arte
 

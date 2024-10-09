@@ -2,6 +2,8 @@
 title: "Poussins"
 ---
 
+<img src="../../images/10.webp" alt="La Liber">
+
 ### Découvrez les bases du théâtre d’improvisation !
 Plongez dans le monde fascinant de l’improvisation avec notre cours d’introduction, qui vous initiera aux fondamentaux du théâtre d’improvisation. Ce cours est idéal pour toutes celles et tous ceux qui découvrent l’improvisation ou souhaitent rafraîchir leurs connaissances !
 

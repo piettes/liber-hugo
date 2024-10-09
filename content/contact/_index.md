@@ -23,4 +23,4 @@ Nous sommes volontiers disponibles pour des interviews et pour répondre à tout
 polecommunication.liber.impro@gmail.com
 
 
-<img src="https://github.com/user-attachments/assets/0a700b20-6fbd-4061-90e9-397a09514428" alt="La Liber">
+<img src="../images/6.webp" alt="La Liber">

@@ -95,3 +95,5 @@ J
 layouts/partials/head.html,e/8/e840b1c2f95cc24a04a1aaee924928580eec88a8
 Y
 )layouts/partials/subtitle-with-chick.html,6/c/6cadd54b4a7feee010004e091b9fd6397af5270c
+K
+content/events/_index.fr.md,b/b/bb49fdf8fa85883086b71372a930fa5929448a86

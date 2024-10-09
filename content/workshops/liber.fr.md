@@ -2,6 +2,8 @@
 title: "Cours annuel"
 ---
 
+<img src="../../images/11.webp" alt="La Liber">
+
 ### Improvisation – Formats courts et longs
 
 Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes compétences en improvisation. De septembre 2024 à juin 2025, nous nous concentrerons sur deux principaux formats : les formats courts sous forme de matchs et les formats longs de 45 minutes.
