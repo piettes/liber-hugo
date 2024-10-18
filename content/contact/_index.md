@@ -13,9 +13,13 @@ Vous pouvez nous suivre sur <a href="https://www.instagram.com/liber.impro/">Ins
 
 Notre newsletter vous informe une fois par mois sur les spectacles à venir, les prochains ateliers et d'autres actualités.
 
-Adresse e-mail 
-
-S'abonner
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: "20162613",
+    formId: "72eb1bf6-254c-4ad4-9188-563203833664"
+  });
+</script>
 
 ### Presse
 

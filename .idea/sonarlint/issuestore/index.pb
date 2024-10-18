@@ -97,3 +97,13 @@ Y
 )layouts/partials/subtitle-with-chick.html,6/c/6cadd54b4a7feee010004e091b9fd6397af5270c
 K
 content/events/_index.fr.md,b/b/bb49fdf8fa85883086b71372a930fa5929448a86
+L
+content/players/_index.de.md,7/6/7693b0d75aa7433a5c161ab81f099695352d3ab1
+L
+content/players/Adrien.de.md,e/d/edbf1770585c88adcaa757548809a12e30562ae6
+L
+content/players/_index.en.md,6/3/63e2db914451e2f5bb9fba102bda6a4159a23945
+L
+content/players/_index.fr.md,9/9/999ed670a6fabb9f32435b27118608951b9cbd96
+I
+content/players/Adrien.md,7/7/77bb2166dbc304ec447487645e52838c6cfe7930
