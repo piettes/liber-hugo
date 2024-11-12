@@ -23,3 +23,7 @@ Main branch is built & deploy with GitHub Action to this url:
 8. Add Store ?
 9. Datenschutzeklärung ?
 10. Analytics ?
+    ## Added by Lorenz
+11. Change the picture of Camille in "about"
+12. In Safari on mobile phone: "Next show" shows "invalid date"
+13. Ajouter le logo de la liber
