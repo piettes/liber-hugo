@@ -6,7 +6,7 @@ Die nachfolgende Datenschutzerklärung gilt für die Nutzung unseres Online-Ange
 
 Wir messen dem Datenschutz große Bedeutung bei. Die Erhebung und Verarbeitung Ihrer personenbezogenen Daten geschieht unter Beachtung der geltenden datenschutzrechtlichen Vorschriften, insbesondere der Datenschutzgrundverordnung (DSGVO).
 
-##### 1 Verantwortlicher
+### 1 Verantwortlicher
 
 Verantwortlicher für die Erhebung, Verarbeitung und Nutzung Ihrer personenbezogenen Daten im Sinne von Art. 4 Nr. 7 DSGVO ist
 
@@ -16,11 +16,11 @@ Sofern Sie der Erhebung, Verarbeitung oder Nutzung Ihrer Daten durch uns nach Ma
 
 Sie können diese Datenschutzerklärung jederzeit speichern und ausdrucken.
 
-##### 2 Allgemeine Zwecke der Verarbeitung
+### 2 Allgemeine Zwecke der Verarbeitung
 
 Wir verwenden personenbezogene Daten zum Zweck des Betriebs der Website.
 
-##### 3 Welche Daten wir verwenden und warum
+### 3 Welche Daten wir verwenden und warum
 
 3.1 Hosting
 
@@ -32,16 +32,16 @@ Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten,
 
 Wir sammeln Informationen über Sie, wenn Sie diese Website nutzen. Wir erfassen automatisch Informationen über Ihr Nutzungsverhalten und Ihre Interaktion mit uns und registrieren Daten zu Ihrem Computer oder Mobilgerät. Wir erheben, speichern und nutzen Daten über jeden Zugriff auf unsere Website (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören:
 
-- Name und URL der abgerufenen Datei
-- Datum und Uhrzeit des Abrufs 
-- übertragene Datenmenge 
-- Meldung über erfolgreichen Abruf (HTTP response code)
-- Browsertyp und Browserversion 
-- Betriebssystem 
-- Referer URL (d.h. die zuvor besuchte Seite)
-- Websites, die vom System des Nutzers über unsere Website aufgerufen werden 
-- Internet-Service-Provider des Nutzers 
-- IP-Adresse und der anfragende Provider
+* Name und URL der abgerufenen Datei
+* Datum und Uhrzeit des Abrufs 
+* übertragene Datenmenge 
+* Meldung über erfolgreichen Abruf (HTTP response code)
+* Browsertyp und Browserversion 
+* Betriebssystem 
+* Referer URL (d.h. die zuvor besuchte Seite)
+* Websites, die vom System des Nutzers über unsere Website aufgerufen werden 
+* Internet-Service-Provider des Nutzers 
+* IP-Adresse und der anfragende Provider
 
 Wir nutzen diese Protokolldaten ohne Zuordnung zu Ihrer Person oder sonstiger Profilerstellung für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung unserer Website, aber auch zur anonymen Erfassung der Anzahl der Besucher auf unserer Website (traffic) sowie zum Umfang und zur Art der Nutzung unserer Website und Dienste, ebenso zu Abrechnungszwecken, um die Anzahl der von Kooperationspartnern erhaltenen Clicks zu messen. Aufgrund dieser Informationen können wir personalisierte und standortbezogene Inhalte zur Verfügung stellen und den Datenverkehr analysieren, Fehler suchen und beheben und unsere Dienste verbessern.
 
@@ -59,10 +59,10 @@ Unser berechtigtes Interesse an der Nutzung der Cookies gemäß Art 6 Abs. 1 S. 
 
 In den Cookies werden etwa folgende Daten und Informationen gespeichert:
 
-- Log-In-Informationen 
-- Spracheinstellungen 
-- eingegebene Suchbegriffe 
-- Informationen über die Anzahl der Aufrufe unserer Website sowie Nutzung einzelner Funktionen unseres Internetauftritts.
+* Log-In-Informationen 
+* Spracheinstellungen 
+* eingegebene Suchbegriffe 
+* Informationen über die Anzahl der Aufrufe unserer Website sowie Nutzung einzelner Funktionen unseres Internetauftritts.
 
 Bei Aktivierung des Cookies wird diesem eine Identifikationsnummer zugewiesen und eine Zuordnung Ihrer personenbezogenen Daten zu dieser Identifikationsnummer wird nicht vorgenommen. Ihr Name, Ihre IP-Adresse oder ähnliche Daten, die eine Zuordnung des Cookies zu Ihnen ermöglichen würden, werden nicht in den Cookie eingelegt. Auf Basis der Cookie-Technologie erhalten wir lediglich pseudonymisierte Informationen, beispielsweise darüber, welche Seiten unseres Shops besucht wurden, welche Produkte angesehen wurden, etc.
 
@@ -114,7 +114,7 @@ Erfolgt die Datenverarbeitung zur Durchführung vorvertraglicher Maßnahmen, die
 
 Weitere personenbezogene Daten verarbeiten wir nur, wenn Sie dazu einwilligen (Art. 6 Abs. 1 S. 1 a) DSGVO) oder wir ein berechtigtes Interesse an der Verarbeitung Ihrer Daten haben (Art. 6 Abs. 1 S. 1 f) DSGVO). Ein berechtigtes Interesse liegt z. B. darin, auf Ihre E-Mail zu antworten.
 
-##### 4 Google Analytics
+### 4 Google Analytics
 
 Wir benutzen Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Benutzung dieser Website durch die Seitenbesucher werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
 
@@ -130,13 +130,13 @@ Sie können darüber hinaus die Übertragung der durch das Cookie erzeugten und 
 
 Alternativ zum Browser-Plugin oder innerhalb von Browsern auf mobilen Geräten können Sie auf den folgenden Link klicken, um ein Opt-Out-Cookie zu setzen, der die Erfassung durch Google Analytics innerhalb dieser Website zukünftig verhindert (dieses Opt-Out-Cookie funktioniert nur in diesem Browser und nur für diese Domain. Löschen Sie die Cookies in Ihrem Browser, müssen Sie diesen Link erneut klicken): [Google Analytics deaktivieren]
 
-##### 5 Speicherdauer
+### 5 Speicherdauer
 
 Sofern nicht spezifisch angegeben speichern wir personenbezogene Daten nur so lange, wie dies zur Erfüllung der verfolgten Zwecke notwendig ist.
 
 In einigen Fällen sieht der Gesetzgeber die Aufbewahrung von personenbezogenen Daten vor, etwa im Steuer- oder Handelsrecht. In diesen Fällen werden die Daten von uns lediglich für diese gesetzlichen Zwecke weiter gespeichert, aber nicht anderweitig verarbeitet und nach Ablauf der gesetzlichen Aufbewahrungsfrist gelöscht.
 
-##### 6 Ihre Rechte als von der Datenverarbeitung Betroffener
+### 6 Ihre Rechte als von der Datenverarbeitung Betroffener
 
 Nach den anwendbaren Gesetzen haben Sie verschiedene Rechte bezüglich Ihrer personenbezogenen Daten. Möchten Sie diese Rechte geltend machen, so richten Sie Ihre Anfrage bitte per E-Mail oder per Post unter eindeutiger Identifizierung Ihrer Person an die in Ziffer 1 genannte Adresse.
 
@@ -238,7 +238,7 @@ Sie haben das Recht, eine Einwilligung zur Verarbeitung personenbezogener Daten 
 
 Sie haben das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten rechtswidrig ist.
 
-##### 7 Datensicherheit
+### 7 Datensicherheit
 
 Wir sind um die Sicherheit Ihrer Daten im Rahmen der geltenden Datenschutzgesetze und technischen Möglichkeiten maximal bemüht.
 
@@ -248,7 +248,7 @@ Zur Sicherung Ihrer Daten unterhalten wir technische und organisatorische Sicher
 
 Wir gewährleisten außerdem nicht, dass unser Angebot zu bestimmten Zeiten zur Verfügung steht; Störungen, Unterbrechungen oder Ausfälle können nicht ausgeschlossen werden. Die von uns verwendeten Server werden regelmäßig sorgfältig gesichert.
 
-##### 8 Weitergabe von Daten an Dritte, keine Datenübertragung ins Nicht-EU-Ausland
+### 8 Weitergabe von Daten an Dritte, keine Datenübertragung ins Nicht-EU-Ausland
 
 Grundsätzlich verwenden wir Ihre personenbezogenen Daten nur innerhalb unseres Unternehmens.
 
@@ -258,6 +258,6 @@ Für den Fall, dass wir bestimmte Teile der Datenverarbeitung auslagern („Auft
 
 Eine Datenübertragung an Stellen oder Personen außerhalb der EU außerhalb des in dieser Erklärung in Ziffer 4 genannten Falls findet nicht statt und ist nicht geplant.
 
-##### 9 Datenschutzbeauftragter
+### 9 Datenschutzbeauftragter
 
 Sollten Sie noch Fragen oder Bedenken zum Datenschutz haben, so wenden Sie sich bitte an unseren Datenschutzbeauftragten Denis Aubert: daten[a]coursetjardins.org

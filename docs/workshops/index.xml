@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ateliers on Liber</title>
+    <link>http://localhost:1313/liber-hugo/workshops/</link>
+    <description>Recent content in Ateliers on Liber</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="http://localhost:1313/liber-hugo/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cours annuel</title>
+      <link>http://localhost:1313/liber-hugo/workshops/liber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/liber-hugo/workshops/liber/</guid>
+      <description>&lt;img src=&#34;../../images/11.webp&#34; alt=&#34;La Liber&#34;&gt;&#xD;&#xA;&lt;h3 id=&#34;improvisation--formats-courts-et-longs&#34;&gt;Improvisation – Formats courts et longs&lt;/h3&gt;&#xA;&lt;p&gt;Notre cours annuel t&amp;rsquo;offre l&amp;rsquo;opportunité de développer et d&amp;rsquo;approfondir tes compétences en improvisation. De septembre 2024 à juin 2025, nous nous concentrerons sur deux principaux formats : les formats courts sous forme de matchs et les formats longs de 45 minutes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;formats-courts-matchs-dimpro&#34;&gt;Formats courts (Matchs d&amp;rsquo;impro)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Rapidité et spontanéité :&lt;/strong&gt; Dans ces sessions dynamiques, tu apprendras à réagir rapidement et de manière créative aux nouvelles propositions dans des scènes courtes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poussins</title>
+      <link>http://localhost:1313/liber-hugo/workshops/poussins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/liber-hugo/workshops/poussins/</guid>
+      <description>&lt;img src=&#34;../../images/10.webp&#34; alt=&#34;La Liber&#34;&gt;&#xD;&#xA;&lt;h3 id=&#34;découvrez-les-bases-du-théâtre-dimprovisation-&#34;&gt;Découvrez les bases du théâtre d’improvisation !&lt;/h3&gt;&#xA;&lt;p&gt;Plongez dans le monde fascinant de l’improvisation avec notre cours d’introduction, qui vous initiera aux fondamentaux du théâtre d’improvisation. Ce cours est idéal pour toutes celles et tous ceux qui découvrent l’improvisation ou souhaitent rafraîchir leurs connaissances !&lt;/p&gt;&#xA;&lt;h3 id=&#34;ce-qui-vous-attend&#34;&gt;Ce qui vous attend&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exercices créatifs :&lt;/strong&gt; Apprenez les techniques fondamentales de l’improvisation, telles que les réactions spontanées, le travail en équipe et la narration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>http://localhost:1313/liber-hugo/workshops/_index.en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/liber-hugo/workshops/_index.en/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

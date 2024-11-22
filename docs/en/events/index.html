@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang='en'>
+<script src="/liber-hugo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=liber-hugo/livereload" data-no-instant defer></script><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="utf-8"/>
+
+
+
+  <link rel="stylesheet" href="/liber-hugo/css/style.css"/>
+
+
+
+<script src="/liber-hugo/ts/main.js"></script>
+
+
+<script defer src="/liber-hugo/ts/events.js"></script>
+<script type="text/javascript">
+  window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/liber.stephanepiette.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+   
+  !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+
+
+<body class="flex flex-col min-h-screen">
+<div class="fixed top-0 right-0 mt-12 mr-8 z-50">
+<div id="size-indicator"
+    class="flex items-center justify-center w-8 h-8 mb-2 text-sm text-gray-700 uppercase bg-gray-200 rounded-full sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+    <span class="block sm:hidden">all</span>
+    <span class="hidden sm:block md:hidden">sm</span>
+    <span class="hidden md:block lg:hidden">md</span>
+    <span class="hidden lg:block xl:hidden">lg</span>
+    <span class="hidden xl:block 2xl:hidden">xl</span>
+    <span class="hidden 2xl:block">2xl</span>
+</div>
+
+<button id="container-menu" onclick="changeContainerVisibility()"
+    class="w-8 h-8 mb-2 block rounded-full text-gray-700 text-sm bg-gray-200 uppercase pointer-events-auto">
+    <span>C</span>
+</button>
+
+<div id="container-area"
+    class="fixed inset-0 top-0 -z-50 container mx-auto h-full bg-red-200 bg-opacity-25 pointer-events-none hidden">
+    <p></p>
+</div>
+
+<script>
+    function setContainerVisibility(data) {
+        var showContainer = data;
+        var e = document.querySelector("#container-area");
+        if (e.classList.contains("hidden") == showContainer) {
+            e.classList.toggle("hidden");
+        }
+        sessionStorage.setItem("showContainer", showContainer);
+    }
+
+    function changeContainerVisibility() {
+        var e = document.querySelector("#container-area");
+        var showContainer = e.classList.contains("hidden") ? true : false;
+        setContainerVisibility(showContainer);
+    }
+
+    function setupContainerIndicator() {
+         
+        var showContainer = sessionStorage.getItem("showContainer") === "true";
+
+        setContainerVisibility(showContainer);
+    }
+
+    window.onload = setupContainerIndicator;
+</script>
+
+<button id="parameter-menu" onclick="changeParameterVisibility()"
+    class="w-8 h-8 mb-2 rounded-full text-gray-700 text-sm bg-gray-200 uppercase pointer-events-auto">
+    <span>P</span>
+</button>
+
+<div id="parameter-area"
+    class="fixed w-full z-50 right-0 bottom-0 h-1/3 p-4 overflow-y-auto scroll-auto scroll-py-4 touch-auto bg-white/[.95] border-y-8 border-white/50 hidden">
+    <table class="w-full text-left table-auto table-collapse border-gray-200">
+        <caption class="text-left pb-2">Hugo Variables for the current page.</caption>
+        <thead>
+            <tr class="p-2 font-semibold bg-gray-100 border-t ">
+                <th>Variable</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="p-2 border-t">
+                <td>.Name</td>
+                <td>&#34;Events&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Title</td>
+                <td>&#34;Events&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Kind</td>
+                <td>&#34;section&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Type</td>
+                <td>&#34;events&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.IsPage</td>
+                <td>false</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.IsHome</td>
+                <td>false</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Next</td>
+                <td>&lt;nil&gt;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Prev</td>
+                <td>&lt;nil&gt;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Params</td>
+                <td>
+                    <table>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;draft&#34;:</td>
+                            <td>false</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;eventpage&#34;:</td>
+                            <td>true</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;iscjklanguage&#34;:</td>
+                            <td>false</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;title&#34;:</td>
+                            <td>&#34;Events&#34;</td>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Section</td>
+                <td>&#34;events&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.CurrentSection</td>
+                <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/events/_index.en.md</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Pages</td>
+                <td>
+                    Pages(0)
+                    <table></table>
+                </td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Resources</td>
+                <td>[]</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.File</td>
+                <td>_index.en</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.File.Dir</td>
+                <td>&#34;events\\&#34;</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function setParameterVisibility(data) {
+        var showParameter = data;
+        var e = document.querySelector("#parameter-area");
+        if (e.classList.contains("hidden") == showParameter) {
+            e.classList.toggle("hidden");
+        }
+        sessionStorage.setItem("showParameter", showParameter);
+    }
+
+    function changeParameterVisibility() {
+        var e = document.querySelector("#parameter-area");
+        var showParameter = e.classList.contains("hidden") ? true : false;
+        setParameterVisibility(showParameter);
+    }
+
+    function setupParameterIndicator() {
+         
+        var showParameter = sessionStorage.getItem("showParameter") === "true";
+
+        setParameterVisibility(showParameter);
+    }
+
+    window.onload = setupParameterIndicator;
+</script>
+</div>
+<header class="w-full border-y-2 border-black">
+    
+  <style type="text/css">
+      input#nav-toggle:checked ~ label#show-button {
+          display: none;
+      }
+
+      input#nav-toggle:checked ~ label#hide-button {
+          display: flex;
+      }
+
+      input#nav-toggle:checked ~ #nav-menu {
+          display: block;
+      }
+  </style>
+
+  <nav class="flex items-center justify-between flex-wrap bg-secondary">
+
+    <input id="nav-toggle" type=checkbox class="hidden">
+    <label id="show-button" for="nav-toggle"
+           class="flex items-center sm:hidden hover:text-blue-500 p-4 w-full">
+
+      <svg viewBox="0 0 20 20" class="inline-block w-6 h-6 mr-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+          <g id="icon-shape">
+            <path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
+          </g>
+        </g>
+      </svg>
+    </label>
+    <label id="hide-button" for="nav-toggle" class="items-center hidden text-gray-700 hover:text-blue-500 p-4 border-l border-black">
+      <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <title>Menu Close</title>
+        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+                 transform="rotate(45 10 10)"/>
+      </svg>
+    </label>
+
+
+    <ul id="nav-menu" class="sm:flex flex-grow w-full sm:w-auto hidden uppercase font-semibold">
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/en/">Home</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/en/about">Qui sommes nous ?</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/en/workshops/">Workshops</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/en/events/">Shows</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/en/contact/">contact</a>
+          </li>
+      <div class="grow flex">
+          
+              
+                <li class="grow border-x border-black p-3 sm:border-t-0 border-t-2 flex">
+                <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/">🇫🇷</a>
+                </li>
+              
+          
+              
+                <li class="grow border-x border-black p-3 sm:border-t-0 border-t-2 flex">
+                <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/de/">🇩🇪</a>
+                </li>
+              
+          
+              
+          
+      </div>
+    </ul>
+  </nav>
+</header><main class="flex-1 bg-background">
+  <div class="max-w-5xl lg:m-auto mx-5 text-lg md:text-xl"><div class="relative mt-20">
+    <h1 class="text-4xl sm:text-5xl">Events</h1>
+    <div class="chick absolute -scale-x-[1] top-[-50%] left-[5%] sm:top-[-35%] sm:left-[5%] w-40 h-40"></div>
+</div>
+
+
+    <div id="event-list" class="max-w-4xl mt-8">
+
+    </div>
+
+
+  </div>
+</main><footer class="bottom-0 w-full py-4 px-8 md:px-64 text-xs text-gray-400 border-t border-gray-200">
+
+  <div class="flex">
+    <div class="grow md:text-center">
+      <a href=""> Impressum </a><br/>
+      <a href=""> Privacy Policy </a>
+      <p>© LIBER 2024.</p>
+
+      
+      </p>
+    </div>
+    <div class="self-center">
+      <a class="w-12 h-12 inline-block" href="https://www.facebook.com/LIBER.IMPRO/" target="_blank">
+          
+        <img alt="facebook logo" src="/liber-hugo/images/facebook_logo.svg"/>
+      </a>
+      <a class="w-12 h-12 inline-block" href="https://www.instagram.com/liber.impro/" target="_blank">
+          
+        <img alt="instagram logo" src="/liber-hugo/images/instagram_logo.svg"/>
+      </a>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -36,7 +36,7 @@ Skalitzer Str. 27
 ##### Quelle der verwendeten Bilder und Grafiken:
 
 LIBER  
-Fotos: Franz Josef
+Fotos: Lorenz von Römer
 
 ##### Webdesign:
 

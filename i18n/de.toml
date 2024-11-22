@@ -1,8 +1,12 @@
 [home]
-  other="ZuHause"
+  other="Hauptseite"
 [events]
   other="Shows"
 [players]
-  other="Spielerin"
+  other="SpielerInnen"
 [workshops]
-  other="Workshops"
+  other="Kurse"
+[about]
+  other="Über uns"
+[contact]
+  other="Kontakt"

@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<script src="/liber-hugo/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=liber-hugo/livereload" data-no-instant defer></script><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="utf-8"/>
+
+
+
+  <link rel="stylesheet" href="/liber-hugo/css/style.css"/>
+
+
+
+<script src="/liber-hugo/ts/main.js"></script>
+
+
+<script type="text/javascript">
+  window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/liber.stephanepiette.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+   
+  !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+
+
+<body class="flex flex-col min-h-screen">
+<div class="fixed top-0 right-0 mt-12 mr-8 z-50">
+<div id="size-indicator"
+    class="flex items-center justify-center w-8 h-8 mb-2 text-sm text-gray-700 uppercase bg-gray-200 rounded-full sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+    <span class="block sm:hidden">all</span>
+    <span class="hidden sm:block md:hidden">sm</span>
+    <span class="hidden md:block lg:hidden">md</span>
+    <span class="hidden lg:block xl:hidden">lg</span>
+    <span class="hidden xl:block 2xl:hidden">xl</span>
+    <span class="hidden 2xl:block">2xl</span>
+</div>
+
+<button id="container-menu" onclick="changeContainerVisibility()"
+    class="w-8 h-8 mb-2 block rounded-full text-gray-700 text-sm bg-gray-200 uppercase pointer-events-auto">
+    <span>C</span>
+</button>
+
+<div id="container-area"
+    class="fixed inset-0 top-0 -z-50 container mx-auto h-full bg-red-200 bg-opacity-25 pointer-events-none hidden">
+    <p></p>
+</div>
+
+<script>
+    function setContainerVisibility(data) {
+        var showContainer = data;
+        var e = document.querySelector("#container-area");
+        if (e.classList.contains("hidden") == showContainer) {
+            e.classList.toggle("hidden");
+        }
+        sessionStorage.setItem("showContainer", showContainer);
+    }
+
+    function changeContainerVisibility() {
+        var e = document.querySelector("#container-area");
+        var showContainer = e.classList.contains("hidden") ? true : false;
+        setContainerVisibility(showContainer);
+    }
+
+    function setupContainerIndicator() {
+         
+        var showContainer = sessionStorage.getItem("showContainer") === "true";
+
+        setContainerVisibility(showContainer);
+    }
+
+    window.onload = setupContainerIndicator;
+</script>
+
+<button id="parameter-menu" onclick="changeParameterVisibility()"
+    class="w-8 h-8 mb-2 rounded-full text-gray-700 text-sm bg-gray-200 uppercase pointer-events-auto">
+    <span>P</span>
+</button>
+
+<div id="parameter-area"
+    class="fixed w-full z-50 right-0 bottom-0 h-1/3 p-4 overflow-y-auto scroll-auto scroll-py-4 touch-auto bg-white/[.95] border-y-8 border-white/50 hidden">
+    <table class="w-full text-left table-auto table-collapse border-gray-200">
+        <caption class="text-left pb-2">Hugo Variables for the current page.</caption>
+        <thead>
+            <tr class="p-2 font-semibold bg-gray-100 border-t ">
+                <th>Variable</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="p-2 border-t">
+                <td>.Name</td>
+                <td>&#34;Membres&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Title</td>
+                <td>&#34;Membres&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Kind</td>
+                <td>&#34;section&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Type</td>
+                <td>&#34;players&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.IsPage</td>
+                <td>false</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.IsHome</td>
+                <td>false</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Next</td>
+                <td>&lt;nil&gt;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Prev</td>
+                <td>&lt;nil&gt;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Params</td>
+                <td>
+                    <table>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;draft&#34;:</td>
+                            <td>false</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;iscjklanguage&#34;:</td>
+                            <td>false</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">&#34;title&#34;:</td>
+                            <td>&#34;Membres&#34;</td>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Section</td>
+                <td>&#34;players&#34;</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.CurrentSection</td>
+                <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/_index.fr.md</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Pages</td>
+                <td>
+                    Pages(33)
+                    <table>
+                        <tr>
+                            <td class="text-right italic pr-2">0:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Johanna.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">1:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Johanna.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">2:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Ulysse.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">3:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Ulysse.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">4:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Adrien.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">5:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Adrien.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">6:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Christiane.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">7:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Christiane.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">8:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Christoph.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">9:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Christoph.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">10:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Cristina.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">11:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Cristina.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">12:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Flora.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">13:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Flora.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">14:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Gabriel.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">15:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Gabriel.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">16:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Gaelle.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">17:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Gaelle.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">18:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Joanna.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">19:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Joanna.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">20:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Juliane.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">21:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Juliane.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">22:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Liliana.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">23:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Liliana.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">24:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Lorenz.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">25:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Lorenz.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">26:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Maelle.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">27:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Maelle.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">28:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/_index.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">29:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Salma.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">30:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Salma.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">31:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Stéphane.en.md</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="text-right italic pr-2">32:</td>
+                            <td>C:/Users/loren/Desktop/impro/Liber/01_site_web/241112_hugo/liber-hugo/content/players/Stéphane.md</td>
+                        </tr>
+                        </table>
+                </td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Resources</td>
+                <td>[]</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.File</td>
+                <td>_index.fr</td>
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.File.Dir</td>
+                <td>&#34;players\\&#34;</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function setParameterVisibility(data) {
+        var showParameter = data;
+        var e = document.querySelector("#parameter-area");
+        if (e.classList.contains("hidden") == showParameter) {
+            e.classList.toggle("hidden");
+        }
+        sessionStorage.setItem("showParameter", showParameter);
+    }
+
+    function changeParameterVisibility() {
+        var e = document.querySelector("#parameter-area");
+        var showParameter = e.classList.contains("hidden") ? true : false;
+        setParameterVisibility(showParameter);
+    }
+
+    function setupParameterIndicator() {
+         
+        var showParameter = sessionStorage.getItem("showParameter") === "true";
+
+        setParameterVisibility(showParameter);
+    }
+
+    window.onload = setupParameterIndicator;
+</script>
+</div>
+<header class="w-full border-y-2 border-black">
+    
+  <style type="text/css">
+      input#nav-toggle:checked ~ label#show-button {
+          display: none;
+      }
+
+      input#nav-toggle:checked ~ label#hide-button {
+          display: flex;
+      }
+
+      input#nav-toggle:checked ~ #nav-menu {
+          display: block;
+      }
+  </style>
+
+  <nav class="flex items-center justify-between flex-wrap bg-secondary">
+
+    <input id="nav-toggle" type=checkbox class="hidden">
+    <label id="show-button" for="nav-toggle"
+           class="flex items-center sm:hidden hover:text-blue-500 p-4 w-full">
+
+      <svg viewBox="0 0 20 20" class="inline-block w-6 h-6 mr-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+          <g id="icon-shape">
+            <path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
+          </g>
+        </g>
+      </svg>
+    </label>
+    <label id="hide-button" for="nav-toggle" class="items-center hidden text-gray-700 hover:text-blue-500 p-4 border-l border-black">
+      <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <title>Menu Close</title>
+        <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+                 transform="rotate(45 10 10)"/>
+      </svg>
+    </label>
+
+
+    <ul id="nav-menu" class="sm:flex flex-grow w-full sm:w-auto hidden uppercase font-semibold">
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/">Accueil</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/about">Qui sommes nous ?</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/workshops/">Ateliers</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/events/">Shows</a>
+          </li>
+          <li class="grow border-x border-black flex p-3">
+            <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/contact/">contact</a>
+          </li>
+      <div class="grow flex">
+          
+              
+          
+              
+                <li class="grow border-x border-black p-3 sm:border-t-0 border-t-2 flex">
+                <a class="flex grow place-content-center items-center" href="http://localhost:1313/liber-hugo/de/">🇩🇪</a>
+                </li>
+              
+          
+      </div>
+    </ul>
+  </nav>
+</header><main class="flex-1 bg-background">
+  <div class="max-w-5xl lg:m-auto mx-5 text-lg md:text-xl"><div class="relative mt-20">
+    <h1 class="text-4xl sm:text-5xl">Membres</h1>
+    <div class="chick absolute -scale-x-[1] top-[-50%] left-[5%] sm:top-[-35%] sm:left-[5%] w-40 h-40"></div>
+</div><p>Voici nos joueuses, ils sont beaucoup trop cools. En plus ils sont belles, alors venez nous voir et on vous fera plein de
+bisous et en plus c’est bientot noel !</p>
+
+
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445180-192510c8-09ea-4192-9544-679ab59b23b0.png" alt="Johanna">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇯🇵🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Johanna</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445180-192510c8-09ea-4192-9544-679ab59b23b0.png" alt="Johanna">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Que ce soit sur scène ou en dehors, Johanna est un personnage cocasse qui se retrouve souvent dans les situations les
+plus improbables. Toujours la bouche ouverte, burlesque et joyeuse; il y bien longtemps que l’arbitre a sifflé la fin du
+match, le sketch continue encore…</p>
+
+            <p>🇫🇷🇯🇵🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Johanna</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/224745642-693f303f-61f4-43f4-8594-f4398761ea09.png" alt="Ulysse">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇩🇪🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Ulysse</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/7779c804-92ec-4cdd-b54f-735982de1fc3" alt="Ulysse">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Avec son sourire de stewart, Ulysse a le don de caricaturer toutes les personnes qu’il croise dans son quotidien. Ses
+plusieurs expériences dans la création de long format lui permettent de passer du thème science fiction à celui du film
+noir en un claquement de doigts! Un adversaire ou un camarade de jeu de taille!</p>
+
+            <p>🇫🇷🇩🇪🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Ulysse</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/230306877-21e6489f-5ccb-4cfe-8456-e1cb055694d9.png" alt="Adrien">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇩🇪🇷🇺</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Adrien</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/4f38331e-bec3-439d-a6db-c14d4ebf1915" alt="Adrien">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Vous venez d’un petit village du fin fond de la Charente Maritime? Adrien connaitra le nombre d’habitants ou le nom du
+maire de 1996. Ce cerveau épate autant par ses connaissances que son investissement dans ses rôles sur scène. Peur de
+rien, il joue à 100%!</p>
+
+            <p>🇫🇷🇩🇪🇷🇺</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Adrien</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/230306821-322d8d61-4b4c-4306-8613-2689f244a49d.png" alt="Christianne">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇩🇪🇫🇷🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Christianne</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/7188d9c4-dd27-45da-aa79-007f0666dd1c" alt="Christianne">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Interpreter 2 personnages simultanément? Facile pour Christiane! La justesse de son jeu impressionne, elle peut passer
+d’une émotion forte à une autre avec une grande facilité. Peut être qu’il y a plusieurs Christiane dans un Christiane,
+un mystére que nous adorons.</p>
+
+            <p>🇩🇪🇫🇷🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Christianne</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445159-aad875a4-9a9d-42ff-86f4-8cabba90c408.png" alt="Christoph">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇩🇪🇫🇷🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Christoph</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445159-aad875a4-9a9d-42ff-86f4-8cabba90c408.png" alt="Christoph">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇩🇪🇫🇷🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Christoph</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445173-4e93a9ba-fa6b-4f85-ac6f-f6ff7a9b60cd.png" alt="Cristina">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇩🇪🇮🇹🇵🇹🇫🇷🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Cristina</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445173-4e93a9ba-fa6b-4f85-ac6f-f6ff7a9b60cd.png" alt="Cristina">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇩🇪🇮🇹🇵🇹🇫🇷🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Cristina</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445176-e21f1b59-3d4b-4bc4-9a6f-4f2004cbd713.png" alt="Flora">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Flora</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/236445176-e21f1b59-3d4b-4bc4-9a6f-4f2004cbd713.png" alt="Flora">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Flora</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/de54081b-9fe8-4f66-a2d9-2181fa3a89ab" alt="Gabriel">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇬🇧🇪🇸🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Gabriel</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/de54081b-9fe8-4f66-a2d9-2181fa3a89ab" alt="Gabriel">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇫🇷🇬🇧🇪🇸🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Gabriel</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/230306862-5470df50-be1a-4607-990b-e57c86f08f4e.png" alt="Gaëlle">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Gaëlle</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/6f647d58-8480-4fbe-beb5-cfea1d39ee6d" alt="Gaëlle">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Gaëlle</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/233984211-ab5de2a7-c0f0-4b04-9eb9-a1e51b1ad823.png" alt="Joanna">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇩🇪🇫🇷🇬🇧❤️</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Joanna</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/233984211-ab5de2a7-c0f0-4b04-9eb9-a1e51b1ad823.png" alt="Joanna">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Il est difficile de passer à coté de Joanna sur les scènes d’improvisation Berlinoises. Madame joue bien sûr avec la
+Liber, mais on peut également la voire dans des collaborations comme “The Marbelles” ou son propre show “And Then
+What ?”. Elle a aussi fait moultes autres apparitions, même à la célèbre BühnenRausch. Bref, elle se la pête grave.</p>
+
+            <p>🇩🇪🇫🇷🇬🇧❤️</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Joanna</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/512037da-71d2-4941-abfe-68e7f181f6d4" alt="Juliane">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇩🇪🇫🇷🇵🇹🇬🇧🇪🇸</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Juliane</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/512037da-71d2-4941-abfe-68e7f181f6d4" alt="Juliane">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇩🇪🇫🇷🇵🇹🇬🇧🇪🇸</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Juliane</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/c87b4332-f68f-443c-b6a6-f094f86255e3" alt="Liliana">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Liliana</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/c87b4332-f68f-443c-b6a6-f094f86255e3" alt="Liliana">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Liliana</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/224745633-42e01326-8b7d-48db-bdb2-7902f60da432.png" alt="Lorenz">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇩🇪🇪🇸🇫🇷🇬🇧🇮🇹🇬🇷🇵🇹</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Lorenz</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/28db47f6-8546-4481-8e1d-c798469e4c38" alt="Lorenz">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Non content de représenter 99% de la bogossitude de notre troupe, Lorenz parle également 7 langues couramment; il parait
+que ça aide pour faire de l’impro multi-langue. Nous on est trop jaloux; du coup, pour l’embêter, on va le faire jouer
+en grommelot. Et toc!</p>
+
+            <p>🇩🇪🇪🇸🇫🇷🇬🇧🇮🇹🇬🇷🇵🇹</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Lorenz</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/0475b5fd-b1b5-42fc-a81b-820d62dea40c" alt="Maëlle">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇩🇪🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Maëlle</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/0475b5fd-b1b5-42fc-a81b-820d62dea40c" alt="Maëlle">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇫🇷🇩🇪🇬🇧</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Maëlle</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="" alt="Players">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p></p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Players</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/e69528b5-6958-4cac-af8c-232132b948b4" alt="Salma">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇹🇳🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Salma</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://github.com/piettes/liber-hugo/assets/5419714/e69528b5-6958-4cac-af8c-232132b948b4" alt="Salma">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              
+            <p>🇹🇳🇫🇷🇬🇧🇩🇪</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Salma</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/233987501-ce624514-d2c4-4c81-8bd8-dbc933073085.png" alt="Stéphane">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Here&rsquo;s a nice placeholder that would correspond to the English description of the person whose photo is just there.
+Mais c&rsquo;est vrai, Stéphane il fait des websites et on lui doit tout.
+Thanks for your patience, it&rsquo;s coming soon! xoxo!
+See you soooon!</p>
+
+            <p>🇫🇷🇩🇪🇬🇧🏴‍☠️😡💰</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Stéphane</h2>
+        </div>
+      </div>
+    </article>
+  
+    <article>
+      <div class="flex flex-wrap justify-center md:justify-start">
+        <img class="profile-picture " src="https://user-images.githubusercontent.com/5419714/233987501-ce624514-d2c4-4c81-8bd8-dbc933073085.png" alt="Stéphane">
+        <div class="md:w-min grow flex items-center order-last md:order-none">
+          <div class="text-justify">
+              <p>Stéphane il fait les sites web, alors faut pas le faire chier.</p>
+
+            <p>🇫🇷🇩🇪🇬🇧🏴‍☠️😡💰</p>
+          </div>
+        </div>
+        <div class="basis-full"></div>
+        <div>
+          <h2>Stéphane</h2>
+        </div>
+      </div>
+    </article>
+  
+
+  </div>
+</main><footer class="bottom-0 w-full py-4 px-8 md:px-64 text-xs text-gray-400 border-t border-gray-200">
+
+  <div class="flex">
+    <div class="grow md:text-center">
+      <a href="http://localhost:1313/liber-hugo/impressum/"> Impressum </a><br/>
+      <a href="http://localhost:1313/liber-hugo/privacy/"> Privacy Policy </a>
+      <p>© LIBER 2024.</p>
+
+      
+      </p>
+    </div>
+    <div class="self-center">
+      <a class="w-12 h-12 inline-block" href="https://www.facebook.com/LIBER.IMPRO/" target="_blank">
+          
+        <img alt="facebook logo" src="/liber-hugo/images/facebook_logo.svg"/>
+      </a>
+      <a class="w-12 h-12 inline-block" href="https://www.instagram.com/liber.impro/" target="_blank">
+          
+        <img alt="instagram logo" src="/liber-hugo/images/instagram_logo.svg"/>
+      </a>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

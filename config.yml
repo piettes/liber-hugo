@@ -1,7 +1,7 @@
 baseURL: "https://piettes.github.io/liber-hugo/"
 languageCode: "en-us"
 title: "Liber"
-disableKinds: [ "taxonomy","taxonomyTerm" ]
+disableKinds: [ "taxonomy" ]
 
 markup:
   goldmark:
@@ -42,6 +42,6 @@ languages:
   de:
     weight: 20
     languageName: 🇩🇪
-  en:
-    weight: 30
-    languageName: 🇬🇧
+#  en:
+#    weight: 30
+#    languageName: 🇬🇧
