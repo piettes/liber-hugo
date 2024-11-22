@@ -59,10 +59,6 @@ L
 layouts/partials/footer.html,f/e/fe27181e0262620e07619a0590d81e89fef855ec
 D
 content/_index.de.md,3/8/384e6eea7f28133102e1f640de346f4c1dd9fede
-G
-content/about/_index.md,a/c/ac4808358ee3c38947926eefc0df802c97148d34
-I
-content/contact/_index.md,8/d/8d6eb7d7df1da8f2d19929e7b7de4ff9247e8e06
 I
 content/home/_index.fr.md,2/5/254056a9585fbe0dadac707ecd4fbb46932231a3
 M
@@ -107,3 +103,5 @@ L
 content/players/_index.fr.md,9/9/999ed670a6fabb9f32435b27118608951b9cbd96
 I
 content/players/Adrien.md,7/7/77bb2166dbc304ec447487645e52838c6cfe7930
+J
+.github/workflows/hugo.yml,9/7/973f087bcce0bd4ddf1d12f62631e6d46de1a1d5
