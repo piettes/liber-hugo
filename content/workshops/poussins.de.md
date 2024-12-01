@@ -2,7 +2,7 @@
 title: "Küken"
 ---
 
-<img src="../../images/10.webp" alt="La Liber">
+<img src="../../../images/10.webp" alt="La Liber">
 
 ### Entdecke die Grundlagen des Improvisationstheaters!
 

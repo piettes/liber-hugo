@@ -1,8 +1,8 @@
 ---
-title: "Cours annuel"
+title: "Jahreskurs"
 ---
 
-<img src="../../images/11.webp" alt="La Liber">
+<img src="../../../images/11.webp" alt="La Liber">
 
 ### Jahreskurs: Improvisation – Kurze und lange Formate
 
