@@ -2,7 +2,7 @@
 title: "Über uns"
 ---
 
-<img src="../images/9.webp" alt="La Liber">
+<img src="../../images/9.webp" alt="La Liber">
 
 Die Improvisationsgruppe LIBER aus Berlin steht für kreative und interkulturelle Begegnungen auf der Bühne. Als deutsch-französische Truppe vereinen wir die Sprach- und Kulturwelten beider Länder in einer einzigartigen Mischung aus Humor, Spontaneität und Tiefgang. Unsere Shows sind ein lebendiges Spiel mit den Erwartungen des Publikums, bei dem aus jeder Szene eine überraschende Geschichte entsteht – mal auf Deutsch, mal auf Französisch, oft mit einem Augenzwinkern und immer mit einem offenen Ohr für die Reaktionen der Zuschauer.
 

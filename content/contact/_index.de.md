@@ -27,4 +27,4 @@ Gerne stehen wir für Interviews und bei Rückfragen zu Presseberichten zur Verf
 polecommunication.liber.impro@gmail.com
 
 
-<img src="../images/6.webp" alt="La Liber">
+<img src="../../images/6.webp" alt="La Liber">

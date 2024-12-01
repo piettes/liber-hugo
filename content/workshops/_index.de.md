@@ -6,4 +6,4 @@ title: "Kurse"
 
 <a href="liber">Liber - Cours annuel : Improvisation – Formats courts et longs</a>
 
-<img src="../images/7.webp" alt="La Liber">
+<img src="../../images/7.webp" alt="La Liber">
