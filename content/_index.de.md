@@ -3,8 +3,7 @@ title: "Die Liber"
 eventpage: true
 ---
 
-<img src="images/home.webp" alt="La Liber">
-
+<img src="../images/home.webp" alt="La Liber">
 
 Die LIBER ist eine **deutsch-französische Improvisationsgruppe** in Berlin.
 
