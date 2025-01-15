@@ -1,4 +1,4 @@
-baseURL: "https://piettes.github.io/liber-hugo/"
+baseURL: "https://liber-impro.com"
 languageCode: "en-us"
 title: "Liber"
 disableKinds: [ "taxonomy" ]
