@@ -79,3 +79,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          name: my-artifact
+          path: my-artifact
+          pattern: my-artifact-*
+          merge-multiple: true
