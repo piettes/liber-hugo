@@ -105,3 +105,5 @@ I
 content/players/Adrien.md,7/7/77bb2166dbc304ec447487645e52838c6cfe7930
 J
 .github/workflows/hugo.yml,9/7/973f087bcce0bd4ddf1d12f62631e6d46de1a1d5
+P
+ content/workshops/poussins.de.md,d/4/d4768aa207fe678c2f927c278427eb699ec59803

@@ -15,12 +15,12 @@ Tauche ein in die faszinierende Welt der Improvisation mit unserem Einführungsk
 **Erfahrene Anleitung:** Unsere qualifizierten Referent·innen begleiten dich Schritt für Schritt und bieten dir wertvolle Tipps und Feedback.
 
 **Dauer:** 8 Wochen, 1 Mal pro Woche\
-**Startdatum:** 14. Oktober\
+**Startdatum:** 20 Januar\
 **Zeiten:** Montags abends von 19 bis 21 Uhr\
 
 ### Melde dich noch heute an!
 
-Die Anmeldung läuft für die Saison 2024/2025! Kontaktiert uns unter info@liber-impro.com oder meldet euch [hier](https://docs.google.com/forms/d/e/1FAIpQLScuA6G4k4vJQEelYbL1fBFHnyXRKuIIwJurE-0FZIY9wMm3Fw/viewform) an! 
+Die Anmeldung läuft für die Saison 2024/2025! Kontaktiert uns unter info@liber-impro.com oder meldet euch [hier](https://forms.gle/q5UrvH55uodbzTXn6) an! 
 
 
 Die Anmeldung für die 8 Workshops beträgt 150 € zum regulären Tarif (120 € ermäßigter Tarif), was 18,75 € pro Workshop entspricht (15 € ermäßigt). Bitte beachten Sie, dass bei Abwesenheit an einer Sitzung keine Rückerstattung erfolgt. Die Mindestteilnehmerzahl pro Sitzung beträgt 8 Personen. Die maximale Teilnehmerzahl liegt bei 12. Wird die Mindestteilnehmerzahl nicht erreicht, müssen wir den Workshop leider absagen.
