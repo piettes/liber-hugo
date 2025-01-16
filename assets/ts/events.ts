@@ -32,7 +32,7 @@ const eventItem = (ev: YesTicketEvent) => {
 
     const date = document.createElement("div");
     date.className = "event-date"
-    const theDate = new Date(ev.event_datetime);
+    const theDate = new Date(ev.event_datetime.replace(" ", "T"));
     date.innerText = theDate.toLocaleDateString("DE", {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})
 
     const location = document.createElement("div");
