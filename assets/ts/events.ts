@@ -2,10 +2,11 @@
 import * as params from '@params';
 
 
-const yesticketBaseUrl = "https://www.yesticket.org/api/v2/events.php";
-const organizer = "14";
-const type = "all";
-const key = "6bd5501ae758318bb5195e2b";
+// const yesticketBaseUrl = "https://www.yesticket.org/api/v2/events.php";
+// const organizer = "14";
+// const type = "all";
+// const key = "6bd5501ae758318bb5195e2b";
+const improvBerlinUrl = "https://api.improvberlin.com/events/yesticket/liber"
 
 interface YesTicketEvent {
     event_name: string;
@@ -20,7 +21,8 @@ interface YesTicketEvent {
 
 
 const fetchEvents: () => Promise<Array<YesTicketEvent>> = async () => {
-    const yesTicketUrl = `${yesticketBaseUrl}?organizer=${organizer}&key=${key}&type=${type}`;
+    // const yesTicketUrl = `${yesticketBaseUrl}?organizer=${organizer}&key=${key}&type=${type}`;
+    const yesTicketUrl = improvBerlinUrl;
 
     const res = await fetch(yesTicketUrl);
     return await res.json();
