@@ -16,13 +16,12 @@ Plongez dans le monde fascinant de l’improvisation avec notre cours d’introd
 
 
 **Durée :** 8 semaines
-**Date de début :** 20 janvier
 **Horaires :** Les lundis soirs de 19h à 21h
 
 
 ### Inscrivez-vous dès aujourd’hui
 
-Les inscriptions sont ouvertes pour la saison 2024/2025 ! Contactez-nous à l'adresse info@liber-impro.com ou [inscrivez-vous ici](https://forms.gle/q5UrvH55uodbzTXn6) !
+Les inscriptions sont ouvertes pour la saison 2024/2025 ! Contactez-nous à l'adresse info@liber-impro.com ou [inscrivez-vous ici](https://docs.google.com/forms/d/e/1FAIpQLSfE4kSbSQHpwAqjQi1m2Nv7OcRlNMHhBfaTGipeXtwBmWOarQ/viewform) !
 
 Ce premier cours permet de voir ou revoir les bases du théâtre de l'improvisation et ses principes clés. Vous serez accompagné.e par un.e ou deux intervenant.e.s durant ces 8 semaines.
 La première session aura lieu une fois par semaine du lundi 14 octobre au lundi 2 décembre pendant 8 semaines consécutives. Les ateliers ont lieu le lundi de 19h à 21h au Tagungszentrum Franz-Mehring-Platz 1, 10243 Berlin (FMP1).
