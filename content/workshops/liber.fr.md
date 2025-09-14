@@ -33,7 +33,7 @@ Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes co
 **Prérequis :** Ce cours s'adresse aux participant·e·s ayant au moins un an d'expérience en improvisation et de solides connaissances de base.
 
 ### Inscriptions
-Les inscriptions sont ouvertes pour la saison 2024/2025 ! Contactez-nous à l'adresse info@liber-impro.com ou [inscrivez-vous ici !](https://docs.google.com/forms/d/e/1FAIpQLScuA6G4k4vJQEelYbL1fBFHnyXRKuIIwJurE-0FZIY9wMm3Fw/viewform) 
+Les inscriptions sont ouvertes pour la saison 2024/2025 ! Contactez-nous à l'adresse info@liber-impro.com.
 
 
 ---
