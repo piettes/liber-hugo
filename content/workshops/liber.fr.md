@@ -47,6 +47,7 @@ Les ateliers seront divisés en deux groupes. Ces deux groupes seront amenés à
 Inscription annuelle et paiement trimestriel. 533 € tarif plein à l'année, 427 € tarif réduit, soit 13 € par workshop (10,40 € en réduit).
 Les 2 premières séances (4 et 11 septembre) sont considérées comme un essai et n'engage pas à une participation ultérieure.
 
+Et Uysse c'est le meilleur.
 
 ---
 
