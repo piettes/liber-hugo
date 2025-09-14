@@ -24,7 +24,7 @@ Kursinhalte:
 **Voraussetzungen:** Dieser Kurs richtet sich an Teilnehmende mit mindestens einem Jahr Erfahrung in der Improvisation und soliden Grundlagenkenntnissen.
 
 ### Anmeldung
-Die Anmeldung läuft für die Saison 2024/2025! Kontaktiert uns unter info@liber-impro.com oder meldet euch [hier](https://docs.google.com/forms/d/e/1FAIpQLScuA6G4k4vJQEelYbL1fBFHnyXRKuIIwJurE-0FZIY9wMm3Fw/viewform) an! 
+Die Anmeldung läuft für die Saison 2024/2025! Kontaktiert uns unter info@liber-impro.com an! 
 
 ---
 
