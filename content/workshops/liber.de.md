@@ -19,8 +19,10 @@ Kursinhalte:
 - **Tiefgang und Emotionen:** Erforsche die Vielfalt emotionaler Ausdrücke und entwickle ein tiefes Verständnis für die emotionale Tiefe in langen Impro-Szenen.
 - **Moderation:** Während der selbstorganisierten Sitzungen übernimmst du die Rolle der Moderator·in oder der Leitung, um das Ensemble zu leiten und kreative Entscheidungen zu treffen.
 
-**Dauer:** September bis Juni, mittwochs 19-21 Uhr
+**Dauer:** September bis Juni, mittwochs 19-21 Uhr.
+
 **Wöchentliche Sitzungen:** Der Kurs umfasst sowohl geleitete Einheiten durch erfahrene Referent·innen als auch selbstorganisierte Sitzungen, die den Raum für Eigenverantwortung und kreatives Experimentieren bieten.
+
 **Voraussetzungen:** Dieser Kurs richtet sich an Teilnehmende mit mindestens einem Jahr Erfahrung in der Improvisation und soliden Grundlagenkenntnissen.
 
 ### Anmeldung
