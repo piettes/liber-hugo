@@ -17,7 +17,7 @@ Plongez dans le monde fascinant de l’improvisation avec notre cours d’introd
 
 ### Inscrivez-vous dès aujourd’hui
 
-Les inscriptions sont ouvertes pour la saison 2024/2025 ! Contactez-nous à l'adresse info@liber-impro.com
+Les inscriptions sont ouvertes pour la saison! Contactez-nous à l'adresse info@liber-impro.com
 
 ---
 
