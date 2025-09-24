@@ -36,6 +36,6 @@ Die Workshops finden mittwochs von 19 bis 21 Uhr im Tagungszentrum Franz-Mehring
 
 ---
 
-Bitte beachten Sie, dass unsere Kurse und Aufführungen auf Französisch und Deutsch stattfinden. Es ist nicht erforderlich, beide Sprachen perfekt zu beherrschen, jedoch wird eine gewisse Vertrautheit empfohlen. Wir heißen alle willkommen, die bereit sind, eine der beiden Sprachen zu lernen und/oder sich darin zu verbessern.
+Bitte beachtet, dass unsere Kurse und Aufführungen auf Französisch und Deutsch stattfinden. Es ist nicht erforderlich, beide Sprachen perfekt zu beherrschen, jedoch wird eine gewisse Vertrautheit empfohlen. Wir heißen alle willkommen, die bereit sind, eine der beiden Sprachen zu lernen und/oder sich darin zu verbessern.
 
 ---
