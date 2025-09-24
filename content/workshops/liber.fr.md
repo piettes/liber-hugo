@@ -6,7 +6,7 @@ title: "Cours annuel"
 
 ### Improvisation – Formats courts et longs
 
-Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes compétences en improvisation. De septembre 2024 à juin 2025, nous nous concentrerons sur deux principaux formats : les formats courts sous forme de matchs et les formats longs de 45 minutes.
+Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes compétences en improvisation. De septembre à juin, nous nous concentrerons sur deux principaux formats : les formats courts sous forme de matchs et les formats longs de 45 minutes.
 
 ### Formats courts (Matchs d'impro)
 
@@ -28,26 +28,19 @@ Notre cours annuel t'offre l'opportunité de développer et d'approfondir tes co
 
 **Modération :** Pendant les sessions auto-organisées, tu prendras le rôle de modérateur·trice ou de leader pour guider l'ensemble et prendre des décisions créatives.
 
-**Durée :** Septembre 2024 à juin 2025 Sessions hebdomadaires : Le cours comprend à la fois des séances dirigées par des intervenant·e·s expérimenté·e·s et des sessions auto-organisées offrant un espace pour la responsabilité personnelle et l'expérimentation créative.
+**Durée :** Septembre à juin Sessions hebdomadaires : Le cours comprend à la fois des séances dirigées par des intervenant·e·s expérimenté·e·s et des sessions auto-organisées offrant un espace pour la responsabilité personnelle et l'expérimentation créative.
 
 **Prérequis :** Ce cours s'adresse aux participant·e·s ayant au moins un an d'expérience en improvisation et de solides connaissances de base.
 
 ### Inscriptions
-Les inscriptions sont ouvertes pour la saison 2024/2025 ! Contactez-nous à l'adresse info@liber-impro.com.
+Les inscriptions sont ouvertes pour la saison ! Contactez-nous à l'adresse info@liber-impro.com.
 
 
 ---
 
 Ce cours annuel est pour les participant.e.s ayant déjà au minimum 1 an d'expérience et maitrisant les bases de l'improvisation. La moitié des cours sera coaché par un.e intervenant.e, la seconde sera en autogestion.
 
-Ces ateliers ont lieu les mercredis de 19 à 21h au Tagungszentrum Franz-Mehring-Platz 1, 10243 Berlin (FMP1) du 4 septembre 2024 au 25 juin 2025.
-
-Les ateliers seront divisés en deux groupes. Ces deux groupes seront amenés à être changés régulièrement ainsi chacun.e pourra profiter de l'expérience de chacun et chacune des joueur.euse.s de la LIBER.
-
-Inscription annuelle et paiement trimestriel. 533 € tarif plein à l'année, 427 € tarif réduit, soit 13 € par workshop (10,40 € en réduit).
-Les 2 premières séances (4 et 11 septembre) sont considérées comme un essai et n'engage pas à une participation ultérieure.
-
-Et Uysse c'est le meilleur.
+Ces ateliers ont lieu les mercredis de 19 à 21h au Tagungszentrum Franz-Mehring-Platz 1, 10243 Berlin (FMP1).
 
 ---
 
