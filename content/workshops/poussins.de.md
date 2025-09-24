@@ -16,7 +16,7 @@ Tauche ein in die faszinierende Welt der Improvisation mit unserem Einführungsk
 
 ### Melde dich noch heute an!
 
-Die Anmeldung läuft für die Saison 2024/2025! Kontaktiert uns unter info@liber-impro.com 
+Die Anmeldung läuft für die Saison! Kontaktiert uns unter info@liber-impro.com 
 
 ---
 
